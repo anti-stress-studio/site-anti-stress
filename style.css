@@ -1,0 +1,135 @@
+/* 🌿 Style général */
+footer {
+  margin-top: 60px;
+  padding: 25px;
+  font-size: 14px;
+  color: #7a6652;
+}
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
+  background: #f8f3ec;
+  color: #4b3b2a;
+  text-align: center;
+  line-height: 1.6;
+}nav {
+  background: #ffffff;
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #4b3b2a;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #b58b63;
+}
+
+/* 🌸 En-tête */
+header {
+  padding: 60px 20px 30px;
+}
+
+h1 {
+  font-size: 55px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+header p {
+  font-size: 18px;
+  color: #6b5642;
+}
+
+/* 🖍️ Titres */
+h2 {
+  margin-top: 40px;
+  font-size: 28px;
+  font-weight: normal;
+}
+
+/* 📌 Galerie */
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  flex-wrap: wrap;
+  margin: 40px auto;
+  max-width: 1000px;
+}
+
+/* 📄 Cartes */
+.card {
+  background: #ffffff;
+  border-radius: 25px;
+  padding: 20px;
+  width: 260px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* 🖼️ Images */
+.card img {
+  width: 100%;
+  border-radius: 18px;
+  border: 1px solid #eee;
+}
+
+/* ⬇️ Bouton Télécharger */
+.card a {
+  display: block;
+  margin-top: 18px;
+  padding: 12px;
+  background: #b58b63;
+  color: white;
+  text-decoration: none;
+  border-radius: 14px;
+  font-size: 16px;
+  transition: background 0.2s ease;
+}
+
+.card a:hover {
+  background: #8a6545;
+}
+footer {
+  margin-top: 60px;
+  padding: 30px;
+  font-size: 14px;
+  color: #7a6652;
+}
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px 20px;
+}
+.breathe-circle {
+  width: 150px;
+  height: 150px;
+  margin: 40px auto;
+  border-radius: 50%;
+  background: #b58b63;
+  animation: breathe 6s infinite;
+}
+
+@keyframes breathe {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.4); }
+  100% { transform: scale(1); }
+}
+
+.breathe-text {
+  font-size: 18px;
+  color: #6b5642;
+}
+
+button:hover {
+  background: #8a6545;
+}
